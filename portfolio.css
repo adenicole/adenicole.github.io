@@ -37,9 +37,10 @@ header nav li {
 }
 header nav a {
     text-decoration: none;
+    color: white;
 }
 header nav a:visited {
-    color: white;
+    color: rgb(245, 217, 236);
 }
 
 /* Main styles */
