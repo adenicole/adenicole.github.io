@@ -1,0 +1,303 @@
+/* Body styles */
+body {
+    max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-top: 40px;
+    line-height: 1;
+    position: relative;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(73, 10, 73);
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
+header img {
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+header nav {
+    float: right;
+    margin-right: 30px;
+}
+header nav li {
+    display: inline;
+    color: white;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+header nav a {
+    text-decoration: none;
+}
+header nav a:visited {
+    color: white;
+}
+
+/* Main styles */
+
+#main-section-1 {
+    background-color: lavender;
+    padding-top: 5px;
+    position: relative;
+    height: 300px;
+}
+#main-section-1 h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+#main-section-1 img {
+    float: right;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+#main-section-1 p {
+    width: 50%;
+    margin:auto;
+    text-align: center;
+}
+#main-section-1 button {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main-section-2 {
+    padding-top: 5px;
+    /* position: relative; */
+    /* height: 270px;    */
+}
+#main-section-2 h2 {
+    text-align: center;
+}
+#project-flex-container {
+    /* position:static; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+.project {
+    width: 150px;
+    /* position: relative; */
+    
+}
+#main-section-2 .project-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#main-section-2 .project-name {
+    font-weight: bold;
+    text-align: center;
+}
+#main-section-2 .project-desc {
+    font-weight: normal;
+    /* font-size: 15px; */
+    text-align: left;
+}
+#main-section-2 a {
+    text-decoration: none;
+    text-align: right;
+    /* position: absolute; */
+    bottom: 0px ;
+    right: 40px;
+
+}
+#main-section-3 {
+    background-color: lavenderblush;
+    padding-top: 2px;
+    height: 250px;
+}
+#main-section-3 h2 {
+    text-align: center;
+}
+#main-section-3 p {
+    text-align:center;
+    width: 50%;
+    margin: auto;
+}
+#goal-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 40%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    /* padding-bottom: 40px; */
+}
+#goal1 {
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+    /* padding-right: 2%; */
+}
+#goal2 {
+    width: 200px;
+    /* padding-left: 2%; */
+    margin-bottom: 10px;
+    display: block;
+}
+#main-section-4 {
+    padding-top: 20px;
+    height: 220px;
+}
+#main-section-4 h2 {
+    text-align: center;
+}
+#main-section-4 img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#resume-desc {
+    text-align: center;
+
+}
+#main-section-4 a {
+    text-decoration: none;
+    text-align:center;
+    display:block;
+    
+}
+#main-section-5 {
+    padding-top: 5px;
+}
+#main-section-5 h2 {
+    text-align: center;
+}
+#certificate-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.certifications {
+    width: 150px;
+}
+#main-section-5 .certifications-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main-section-5 .certification-name {
+    font-weight: bold;
+    text-align: center;
+}
+#main-section-5 .certification-desc {
+    text-align:left;
+}
+#main-section-5 a {
+    text-decoration: none;
+    text-align: right;
+}
+footer section {
+    background-color: lavender;
+    padding-top: 20px;
+    height: 520px;
+
+}
+footer section h2 {
+    text-align: center;
+    
+}
+footer section p {
+    text-align: center;
+}
+#image-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#image-flex-container img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form-flex-container {
+    width: 500px;
+    /* height: 50px; */
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+#contact-form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 350px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+     
+}
+
+#form-container button {
+    display: block;
+    width: 80px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
+
+
+/* #contact-form {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#name {
+    padding-bottom: 5px;
+}
+#email-label {
+
+}
+
+#footer-section-button {
+
+} */
