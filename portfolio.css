@@ -76,7 +76,7 @@ header nav a:visited {
     margin-right: auto;
 }
 #main-section-2 {
-    padding-top: 15px;
+    padding-top: 18px;
     /* position: relative; */
     /* height: 270px;    */
 }
@@ -127,7 +127,7 @@ header nav a:visited {
 }
 #main-section-3 {
     background-color: lavenderblush;
-    padding-top: 15px;
+    padding-top: 18px;
     height: 250px;
 }
 #main-section-3 h2 {
@@ -227,6 +227,7 @@ header nav a:visited {
     text-decoration: none;
     text-align: right;
 }
+/* Footer styles */
 footer section {
     background-color: lavender;
     padding-top: 20px;
@@ -286,20 +287,3 @@ footer section p {
     margin-right: auto;
     border-radius: 20%;
 }
-
-
-/* #contact-form {
-    display: block;
-    text-align: center;
-    padding-bottom: 10px;
-}
-#name {
-    padding-bottom: 5px;
-}
-#email-label {
-
-}
-
-#footer-section-button {
-
-} */
