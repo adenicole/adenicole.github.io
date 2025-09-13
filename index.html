@@ -1,142 +1,98 @@
 <!DOCTYPE html>
-    <head>
-        <title>
-            Nicole Adeyemi
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="portfolio.css">
-    </head>
-    <body>
-        <header>
-            <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80"  alt= "picture icon" id="header-img">
-            <nav>
-                <ul>
-                    <li><a href="#main-section-1">About</a></li>
-                    <li><a href="#main-section-2">Project</a></li>
-                    <li><a href="#main-section-3">Goals</a></li>
-                    <li><a href="#main-section-4">Resume</a></li>
-                    <li><a href="#main-section-5">Certifications</a></li>
-                    <li><a href="#footer-section">Contact</a></li>
-                    
-                </ul>
-            </nav>
-        </header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adedoyin Adeyemi - Cloud & DevOps Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-800">
+  <header class="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <div class="w-12 h-12 rounded-full bg-gradient-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">AA</div>
+      <div>
+        <h1 class="text-xl font-semibold">Adedoyin Adeyemi</h1>
+        <p class="text-sm text-slate-500">Cloud & DevOps Engineer • SRE • Technical Writer</p>
+      </div>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm">
+      <a href="#about" class="hover:text-indigo-600">About</a>
+      <a href="#skills" class="hover:text-indigo-600">Skills</a>
+      <a href="#projects" class="hover:text-indigo-600">Projects</a>
+      <a href="#contact" class="hover:text-indigo-600">Contact</a>
+    </nav>
+  </header>
 
-        <main>
-            <section id="main-section-1">
-                <h3> Nicole's Portfolio</h3>
-                <p>Welcome to Nicole's portfolio. Nicole is a front-end Developer, curently interning at the she code Africa levelled membership. There are series of projects she has done and is presently working on. she is vast in the knowledgde of HTML and CSS, a bit of JavaScript and Python.</p>
-                <button>Know more</button>
-                    
-                <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="Nicole's Portfolio">
-            </section>
-            <section id="main-section-2">
-                <h2>OUR PROJECTS</h2>
-                <div id="project-flex-container">
-                    <div class="project">
-                        <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="project-1" class="project-img">
-                        <p class="project-name">Survey Form</p>
-                        <p class="project-desc">A simple survey form for an Application to join Nicole's Confectioneries.</p>
-                        <a href="https://codepen.io/adenicole/pen/BaopBrw">Know more</a>
-                    </div>
-                    <div class="project">
-                        <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="project-2" class="project-img">
-                        <p class="project-name">Techdoc Page</p>
-                        <p class="project-desc">A Techdoc page on how to bake, makinng some simple pastries ands other continental dishes</p>
-                        <a href="https://codepen.io/adenicole/details/jObBgdq">Know more</a>
-                    </div>
-                    <div class="project">
-                        <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="project 3"  class="project-img">
-                        <p class="project-name">Product landing page</p>
-                        <p class="project-desc"> Details of product available and prices of snacks, pasties at Nicole's Confectioneries.</p>
-                        <a href="https://codepen.io/adenicole/details/wvKJqOa">Know more</a>
-                    </div>
-                    <div class="project">
-                        <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt=" project-4" class="project-img">
-                        <p class="project-name">Nicole Adeyemi</p>
-                        <p class="project-desc">A Background introduction of who Nicole is.</p>
-                        <a href="https://codepen.io/adenicole/details/XWmNwby">Know more</a>
-                    </div>
-                </div>
-            </section>
-            <section id="main-section-3">
-                <h2>OUR GOALS</h2>
-                <p>
-                    Our goals are splitted into the primary and the secondary goals. The primary goals are life-lasting while the secondary goals are either short term or long term. click the button below to see.
-                </p>
-                
-                <div id="goal-flex-container">
-                    <button id="goal1">
-                        PRIMARY GOALS
-                    </button>
-                    <button id="goal2">
-                        SECONDARY GOALS
-                    </button>
-                </div>
-            </section>
-            <section id="main-section-4">
-                <h2>RESUME </h2>
-                <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="Resume">
-                <p id="resume-desc">Nicole started learning about coding actively last year on freecode camp and has progressed since then.</p>
-                <a href="https://docs.google.com/document/d/1OdMonIvlaqOsYKEXoWKuNpt9CwtGn7pfRSUVmNn4IZc/edit?usp=sharing">View resume</a>
-            </section>
-            <section id="main-section-5">
-                <h2>CERTIFICATIONS</h2>
-                <div id="certificate-flex-container">
-                    <div class="certifications">
-                        <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="certificate-1" class="certifications-img">
-                        <p class="certification-name">Succeeding in Web Development: fullstack and front-end</p>
-                        <p class="certification-desc">This linkedin course certification provides a map of the core technology and advice about mastering them, it also provide stips on finding training, getting hired and maximizing your potential in this exciting field. </p>
-                        <a href="https://t.co/CkZ0vw4z7a?amp=1">click here</a>
-                    </div>
-                    <div class="certifications">
-                        <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="certificate-2" class="certifications-img">
-                        <p class="certification-name">HTML Essential training</p>
-                        <p class="certification-desc">This linkedin learning course teaches that Hypertext Markup Language is the foundation of website and web application development, how to craft an excellent HTML with pieces that HTML itself has to offer.</p>
-                        <a href="https://t.co/t7e1XA7trG?amp=1">click here</a>
-                    </div>
-                    <div class="certifications">
-                        <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="certificate-3" class="certifications-img">
-                        <p class="certification-name">Programming Foundations: Fundamentals</p> 
-                        <p class="certification-desc">In this course the core foundations to begin programming is mentioned. Here python is used to explore core concepts, how to work with data and troubleshoot errors and how to Increase efficiency with functions working with comment. </p>
-                        <a href="https://t.co/oTPLr2SAqK?amp=1">click here</a>
-                    </div>
-                    <div class="certifications">
-                        <img src="https://assets.codepen.io/4402687/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1603508853&width=80" alt="certificate-4" class="certifications-img">
-                        <p class="certification-name">Programming Foundations: Databases</p>
-                        <p class="certification-desc"> This linkedin learning course shows that in programming, database is very important, it provides a constitent , organized structure for storing and retrieving large amount of data.</p>
-                        <a href="https://t.co/Tlzk54sxQF?amp=1">click here</a>
-                    </div>
-                </div>
-            </section>
-        </main>
+  <main class="max-w-5xl mx-auto px-6">
+    <section id="about" class="bg-white rounded-2xl shadow-sm p-8 flex flex-col md:flex-row items-center gap-8">
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold leading-tight">Cloud & DevOps Engineer who builds reliable systems</h2>
+        <p class="mt-4 text-slate-600">I help teams ship faster and keep systems running — automation, observability, and infrastructure as code are the tools I use. AWS-certified with hands-on experience in Terraform, Kubernetes, ArgoCD, Jenkins, and monitoring stacks.</p>
 
-        <footer id="footer-section">
-            <section>
-                <h2>CONTACT</h2>
-                <p>We'd Love to hear from you.</p>
-                <div id="image-flex-container">
-                    <a href="https://wa.me/&lt;08092780524&gt;"><img src="https://image.flaticon.com/icons/png/512/124/124034.png" alt="WhatsApp" class="footer-image"></a>
-                    <a href="https://t.co/Uezq3t9x64?amp=1"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="instagram-page" class= "footer-image"></a>
-                    <a href="https://github.com/adenicole"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github" class="footer-image"></a>
-                </div>
-                <div id="form-container">
-                    <form id="contact-form">
-                        <label for="name"> Name:</label>
-                        <input id="name" type="text" placeholder="Write your name" required>
-                        <br>
-                        <label for="email">Email:</label>
-                        <input id="email" type="email" placeholder="Give the correct email" required>
-                        <br>
-                        <label for="message"> Message: </label>
-                        <textarea id="message" placeholder=" Input message here" required></textarea>
-                        <br>
-                    </form>
-                    <button>Submit</button>
-                </div>
-               <p>Copyright 2021 Nicole's Confectioneries, All Rights Reserved.</p>
-            </section>
-        </footer>
-    </body>
+        <div class="mt-6 flex gap-3">
+          <a class="inline-block bg-indigo-600 text-white px-4 py-2 rounded-md shadow-sm hover:bg-indigo-700" href="#contact">Hire / Contact</a>
+          <a class="inline-block border border-slate-200 px-4 py-2 rounded-md hover:bg-slate-50" href="files/Adedoyin_Adeyemi_Canadian_CV_2Pages.docx">Download CV</a>
+        </div>
+
+        <ul class="mt-6 grid grid-cols-2 gap-2 text-sm text-slate-600">
+          <li><strong>Location:</strong> Lagos, Nigeria (Open to remote & relocation)</li>
+          <li><strong>Certifications:</strong> AWS SAA & Cloud Practitioner</li>
+          <li><strong>Teaching:</strong> Weekly Terraform & DevOps mentor</li>
+          <li><strong>Tools:</strong> Terraform, Kubernetes, Jenkins, ArgoCD, Octopus, Helm</li>
+        </ul>
+      </div>
+      <div class="w-48 h-48 rounded-xl bg-gradient-to-br from-indigo-100 to-pink-50 flex items-center justify-center">
+        <img src="assets/profile.jpg" alt="Adedoyin" class="w-40 h-40 rounded-full object-cover shadow-md" />
+      </div>
+    </section>
+
+    <section id="skills" class="mt-8">
+      <h3 class="text-2xl font-semibold">Core Skills</h3>
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-4 bg-white rounded-lg shadow-sm">
+          <h4 class="font-medium">Cloud & Infrastructure</h4>
+          <p class="mt-2 text-sm text-slate-600">AWS, GCP, Azure, IaC with Terraform, CDKTF, Pulumi</p>
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow-sm">
+          <h4 class="font-medium">CI/CD & Deployment</h4>
+          <p class="mt-2 text-sm text-slate-600">Jenkins, GitLab CI, CircleCI, Octopus, ArgoCD, Helm</p>
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow-sm">
+          <h4 class="font-medium">Monitoring & Reliability</h4>
+          <p class="mt-2 text-sm text-slate-600">Prometheus, Grafana, Elastic Stack, CloudWatch, PagerDuty</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="mt-8">
+      <h3 class="text-2xl font-semibold">Selected Projects</h3>
+      <div class="mt-4 space-y-4">
+        <article class="p-4 bg-white rounded-lg shadow-sm">
+          <h4 class="font-semibold">Observesoftcom — Internal Observability Tool</h4>
+          <p class="mt-2 text-sm text-slate-600">Built an internal tool used by developers to surface logs and metrics, improving debugging efficiency by ~30%.</p>
+          <p class="mt-2 text-xs text-slate-500">Tech: Elasticsearch, Kibana, Python, Docker, AWS</p>
+        </article>
+
+        <article class="p-4 bg-white rounded-lg shadow-sm">
+          <h4 class="font-semibold">CI/CD Modernization for Eyowo & Kwiksell</h4>
+          <p class="mt-2 text-sm text-slate-600">Automated build and release pipelines, reducing deployment cycles from days to hours.</p>
+          <p class="mt-2 text-xs text-slate-500">Tech: Jenkins, GitLab CI, Terraform, Kubernetes</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="mt-8 mb-16 bg-white p-6 rounded-lg shadow-sm">
+      <h3 class="text-2xl font-semibold">Contact</h3>
+      <p class="mt-2 text-sm text-slate-600">Email: <a href="mailto:dedoyinnicole@gmail.com" class="text-indigo-600">dedoyinnicole@gmail.com</a></p>
+      <p class="mt-1 text-sm text-slate-600">LinkedIn: <a class="text-indigo-600" href="https://www.linkedin.com/in/adenicole">linkedin.com/in/adenicole</a></p>
+      <div class="mt-4">
+        <a href="mailto:dedoyinnicole@gmail.com?subject=Opportunity" class="inline-block bg-indigo-600 text-white px-4 py-2 rounded-md">Email Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-8 text-center text-sm text-slate-500">
+    © <script>document.write(new Date().getFullYear())</script> Adedoyin Adeyemi — Cloud & DevOps Engineer
+  </footer>
+</body>
 </html>
